@@ -1,0 +1,64 @@
+$opisColor: black;
+$opisFont: Verdana, Geneva, sans-serif;
+$opisFontSize: 18px;
+
+.game {   
+   background-image: url("images/tlo.jpg");
+}
+
+#container {
+    margin: 5px auto 0px auto;
+    width: 500px;
+    height: 620px;
+    padding: 10px;
+    background-image: url("images/home_bg.jpg");
+}
+
+#theEnd {
+    position: absolute;
+    margin-top: 100px;
+    width: 480px;
+    height: 600px;
+    display: none; 
+    text-align: center;
+
+}
+
+.list-group { 
+    min-width: 300px;
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.opis { 
+    color: $opisColor;
+    text-align: center;
+    font-family: $opisFont;
+
+	h2 {
+    	font-weight: bold;
+	}
+	p{
+   		font-size: $opisFontSize;
+	}
+
+}
+
+#profile_iam {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+#nickline{
+    display: inline-table;
+    width: auto;
+}
+
+.description img {
+    max-height: 20px;
+    max-width: 20px;
+}

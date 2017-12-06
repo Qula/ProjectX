@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="images/racing1.png">
+        <title>BrumBrum</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.min.css"/> 
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    </head>
+    <body class="game">
+      <header class="navbar navbar-inverse">
+            <div class="container">
+              <nav  role="navigation">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">BrumBrum</a>
+                  </div>
+
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html">Home</a></li>                              
+                      <li><a href="game.html">Game</a></li>
+                      <li class="active"><a href="highscores.html">Highscores<span class="sr-only">(current)</span></a></li>  
+                    </ul>
+
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+            </div>
+      </header>          
+                  
+      <div id="container">
+          <div class="panel panel-primary">
+                <div class="panel-heading">Highscores</div>
+                  <table class="table">
+                    <thead>
+                        <tr>
+                        <th>#</th>
+                        <th>Nick</th>
+                        <th>Score</th>
+                        <th>Time</th>
+                        <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+          </div>
+      </div>
+
+     <script src="scripts/jquery-1.11.1.min.js"></script>
+     <script src="scripts/hs-script.min.js"></script>
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    </body>
+
+</html>
+
+  
